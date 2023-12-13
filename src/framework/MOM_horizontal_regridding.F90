@@ -25,10 +25,7 @@ implicit none ; private
 
 #include <MOM_memory.h>
 
-! DH* 20230717 is meshgrid needer?
-public :: horiz_interp_and_extrap_tracer, myStats, homogenize_field, fill_miss_2d
-!public :: horiz_interp_and_extrap_tracer, myStats, homogenize_field, meshgrid, fill_miss_2d
-! *DH 20230717
+public :: horiz_interp_and_extrap_tracer, myStats, homogenize_field, meshgrid, fill_miss_2d
 
 !> Extrapolate and interpolate data
 interface horiz_interp_and_extrap_tracer
