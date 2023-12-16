@@ -25,7 +25,7 @@ implicit none ; private
 
 #include <MOM_memory.h>
 
-public :: horiz_interp_and_extrap_tracer, myStats, homogenize_field, meshgrid!, fill_miss_2d
+public :: horiz_interp_and_extrap_tracer, myStats, homogenize_field, meshgrid, fill_miss_2d
 
 !> Extrapolate and interpolate data
 interface horiz_interp_and_extrap_tracer
